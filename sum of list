@@ -1,0 +1,11 @@
+#sum of list
+
+l=[]
+n=int(input("Enter the limit"))
+for i in range(0,n):
+    a=int(input("Enter the number:"))
+    l.append(a)
+print("The list is ",l)
+for i in l:
+    s=sum(l)
+print("Sum of list is ",s)
